@@ -1,0 +1,7 @@
+# Project-only dependencies. Install Isaac Sim, CUDA-enabled PyTorch,
+# Isaac Lab and rsl-rl with the version-matched README steps; do not duplicate
+# them here because doing so can replace NVIDIA-pinned packages.
+toml>=0.10.2,<1
+onnx>=1.17,<2
+onnxruntime>=1.20,<2
+PyYAML>=6,<7

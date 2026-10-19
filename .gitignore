@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.codex_test_deps/
+
+# Isaac Lab / training outputs
+logs/
+outputs/
+videos/
+*.usd
+*.usda
+*.usdc
+*.onnx
+*.pt
+*.log
+
+# Editors and OS
+.vscode/settings.json
+.python.env
+.DS_Store
+Thumbs.db
+

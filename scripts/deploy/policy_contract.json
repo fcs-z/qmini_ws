@@ -1,0 +1,39 @@
+{
+  "input_name": "policy_observation",
+  "input_dimension": 129,
+  "single_frame_dimension": 43,
+  "history_length": 3,
+  "history_order": "oldest_to_newest",
+  "output_name": "normalized_action",
+  "output_dimension": 12,
+  "action_order": [
+    "left_phase_frequency",
+    "right_phase_frequency",
+    "hip_yaw_l_increment",
+    "hip_roll_l_increment",
+    "hip_pitch_l_increment",
+    "knee_pitch_l_increment",
+    "ankle_pitch_l_increment",
+    "hip_yaw_r_increment",
+    "hip_roll_r_increment",
+    "hip_pitch_r_increment",
+    "knee_pitch_r_increment",
+    "ankle_pitch_r_increment"
+  ],
+  "joint_order": [
+    "hip_yaw_l",
+    "hip_roll_l",
+    "hip_pitch_l",
+    "knee_pitch_l",
+    "ankle_pitch_l",
+    "hip_yaw_r",
+    "hip_roll_r",
+    "hip_pitch_r",
+    "knee_pitch_r",
+    "ankle_pitch_r"
+  ],
+  "frequency_range_hz": [0.5, 3.5],
+  "joint_increment_range_rad_s": [-15.0, 15.0],
+  "control_period_s": 0.015
+}
+

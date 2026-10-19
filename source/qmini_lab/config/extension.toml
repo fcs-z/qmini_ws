@@ -1,0 +1,21 @@
+[package]
+version = "0.1.0"
+category = "isaaclab"
+title = "Qmini Isaac Lab"
+author = "Qmini Isaac Lab project contributors"
+maintainer = "Qmini Isaac Lab project contributors"
+description = "Unitree Qmini locomotion environments for Isaac Sim 6.0.1 and Isaac Lab 3.0"
+repository = "https://github.com/unitreerobotics/Qmini"
+keywords = ["isaaclab", "qmini", "biped", "locomotion", "rsl-rl"]
+
+[dependencies]
+"isaaclab" = {}
+"isaaclab_physx" = {}
+"isaaclab_rl" = {}
+"isaaclab_tasks" = {}
+
+[[python.module]]
+name = "qmini_lab"
+
+[isaac_lab_settings]
+

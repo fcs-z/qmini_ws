@@ -1,0 +1,3 @@
+recursive-include qmini_lab/assets/qmini *.urdf *.STL
+include config/extension.toml
+
